@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Motivate AI Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎓 Motivate AI Studio</h1>
+  <form id="form">
+    <label>Class Name:</label><br />
+    <input type="text" name="className" required /><br /><br />
+
+    <label>Upload Logo:</label><br />
+    <input type="file" name="logo" /><br /><br />
+
+    <label>Select Theme Colors:</label><br />
+    <input type="color" name="color1" />
+    <input type="color" name="color2" /><br /><br />
+
+    <label>Choose Templates:</label><br />
+    <select name="templateType">
+      <option value="image">Image</option>
+      <option value="video">Video</option>
+      <option value="both">Both</option>
+    </select><br /><br />
+
+    <label>Enter Quote (Optional):</label><br />
+    <textarea name="quote"></textarea><br /><br />
+
+    <button type="submit">Generate</button>
+  </form>
+
+  <script src="App.js"></script>
+</body>
+</html>
